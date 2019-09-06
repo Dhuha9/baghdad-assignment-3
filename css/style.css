@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.clearfix:after{
+
+    content: ".";
+    line-height: 0;
+    height: 0;
+    visibility: hidden;
+    clear:both;
+    display: block;
+}
+header{
+    position: fixed;
+    z-index: 99;
+    height: 60px;
+    width: 100%;
+    padding: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    background-color: #fff;
+    display: inline-block;
+}
+#header_items_container{
+    height: 50px;
+    width: 65%;
+    margin: 0 auto;
+    
+    
+}
+#logo_img{
+    float: left;
+    width: 60px;
+    height: 50px;
+    padding: 0px 5px ;
+}
+.buttons_div{
+    float: right;
+
+}
+input{
+    padding: 8px 25px;
+    border-radius: 0.75em;
+    margin: 5px;
+
+}
+
+
+
+.btn_blue{
+    background-color: #5199FF;
+    color: #fff;
+    font-weight: bold;
+    border: 1px solid #5199FF;
+}
+.btn_blue,.btn_white:hover{
+    cursor: pointer;
+}
+.btn_white{
+    background-color: #fff;
+    color: #5199FF;
+    font-weight: bold;
+    border: 1px solid #5199FF;
+    
+}
+#cover{
+    width: 100%;
+    margin-top: -150px;
+    height: 500px;
+}
+
+main{
+    width: 65%;
+    margin: 0 auto;
+    border: 1px solid #D1D3D4;
+
+}
+#profile_img{
+    width: 160px;
+    height: 160px;
+    
+    border-radius: 50%;
+    border: 3px solid #fff;
+}
+#location_pin_img{
+    width: 15px;
+    height: 15px;
+}
+
+#line{
+    height: 3px;
+    width: 80%;
+    border-bottom: 2px solid #D1D3D4;
+    margin-left:40px ;
+    padding: 5px;
+}
+#person_img{
+    width: 15px;
+    height: 15px;
+}
+
+h4,h3{
+    display: inline-block;
+}
+.text_with_icon
+{
+ position: relative;
+ top: 100px;
+ padding: 20px;
+ height: 0;
+}
+.gray_text{
+    color:rgb(161, 163, 165);
+}
+#f{
+
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+#profile_info{
+    display: flex;
+    justify-content: flex-start;
+    
+    
+}
+.buttons_div2{
+    display: flex;
+    justify-content: flex-end;
+}
+#ggg{
+    position: relative;
+    top: -90px;
+    left: 50px;
+    z-index: 66;
+    margin-right: 50px;
+}
+
+.folower_profile_image{
+    position: relative;
+    left: 30px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 3px solid #fff;
+    margin-left: -20px
+}
+#no_folowers{
+    padding: 20px;
+}
+#last_profile_image{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 3px solid #fff;
+    background-color: gray ; 
+    position: relative;
+z-index: 3; 
+}
+#plus_three{
+color: #fff;
+padding-top: 10px;
+padding-left: 10px;
+
+}
+#photos{
+  display: flex;
+  justify-content: flex-start;
+}
